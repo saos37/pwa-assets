@@ -1,0 +1,22 @@
+{
+  "name": "Blog Resmi Jajang Gunawan",
+  "short_name": "JG Blog",
+  "description": "Tempat berbagi artikel, tutorial, dan dokumentasi menarik.",
+  "start_url": "https://saos37.blogspot.com/?m=1",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSDrRPCEeYTSJ4Icpbcmqpf5kn3913vmWqvQBntjrV-wsXiDPnhwJ_Xx9U72CeFw9fUftMQGbpz77IiyGvlAREjlW41I921_hem0r0-n_TcR6d4FLO-2LCUnWWeq4ifWw35mvADbQLnuDT2jPBoxuc11X-p7v8fpnApzIvLJPJIWPywdpjnxSWzdyrWqER/s192/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4NxJVIZKxvLlGkhsgaQ4245-dApZh53KlVAQ_DGDsjdciDZor5FdP9ZiN1KTbLCNHmgPCk6wT0-Be50pIOg1RmKLtPxz-35HLNgnLspUV1TQkxk9ZGTuW63fEKBq1aecXEAAbGEFciMSv-VfW8piT-ym2u9weyQh1PuOGDy48dK7X_SnRCmEBQ4MBCWmL/s512/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
