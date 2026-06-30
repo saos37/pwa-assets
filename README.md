@@ -1,2 +1,2 @@
 # pwa-assets
-PWA blog saos37
+PWA blog saosweb.blogspot.com
