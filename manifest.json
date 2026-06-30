@@ -2,10 +2,10 @@
   "name": "MURSYID TQN SURYALAYA KE-37",
   "short_name": "ABAH ANOM",
   "description": "Mengamalkan Mengamankan Melestarikan TQN Suryalaya",
-  "start_url": "https://saos37.blogspot.com/?m=1",
+  "start_url": "https://saosweb.blogspot.com/?m=1",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#075E54",
   "orientation": "portrait-primary",
   "icons": [
     {
