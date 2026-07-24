@@ -1,13 +1,14 @@
-const CACHE_NAME = 'blog-offline-v3.7';
-const urlsToCache = [
+const CACHE_NAME = 'blog-offline-v3.8';
+const ASSETS_TO_CACHE = [
   '/',
+  '/?m=1',
 ];
 
-// 1. Install Service Worker dan Simpan Beranda ke Cache
+// 1. Install Service Worker dan Simpan Halaman Utama
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
+      return cache.addAll(ASSETS_TO_CACHE);
     })
   );
   self.skipWaiting();
@@ -29,21 +30,39 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// 3. Tangkap Permintaan dan Ambil dari Cache jika Offline
+// 3. Strategi Cache-First dengan Dynamic Caching untuk Halaman Lain
 self.addEventListener('fetch', (event) => {
+  // Hanya tangani permintaan GET (halaman web atau aset)
+  if (event.request.method !== 'GET') return;
+
   event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        // Jika online, update cache dengan data terbaru
-        let responseClone = response.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseClone);
+    caches.match(event.request).then((cachedResponse) => {
+      // Jika halaman sudah ada di cache, langsung berikan (bisa dibuka meski offline)
+      if (cachedResponse) {
+        return cachedResponse;
+      }
+
+      // Jika tidak ada di cache, ambil dari internet
+      return fetch(event.request)
+        .then((response) => {
+          // Pastikan respons valid sebelum disimpan ke cache
+          if (!response || response.status !== 200 || response.type !== 'basic') {
+            return response;
+          }
+
+          let responseToCache = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+
+          return response;
+        })
+        .catch(() => {
+          // Jika internet mati dan halaman tidak ada di cache, arahkan ke halaman utama/beranda yang tersimpan
+          if (event.request.mode === 'navigate') {
+            return caches.match('/');
+          }
         });
-        return response;
-      })
-      .catch(() => {
-        // Jika offline, ambil dari cache penyimpanan
-        return caches.match(event.request);
-      })
+    })
   );
 });
