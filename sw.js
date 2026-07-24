@@ -1,4 +1,4 @@
-const CACHE_NAME = 'blog-offline-v3.8';
+const CACHE_NAME = 'blog-offline-v3.7';
 const ASSETS_TO_CACHE = [
   '/',
   '/?m=1',
