@@ -2,19 +2,19 @@
   "name": "Abah Anom My Mursyid",
   "short_name": "My Mursyid",
   "description": "Mursyid TQN Suryalaya",
-  "start_url": "https://saosweb.blogspot.com/?m=1",
+  "start_url": "https://saosweb.blogspot.com",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#128C7E",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPJWsh9wgkrb9HjYqiDjbQV6G5EQJGaxkvUBasXirMjLPY2v5GUTxk4WlOKd-Rql_S-HA_kTv0rh87KEfBtfvwwylmkoJ_bTgXghFQFfLkK8C5b8QJkCXrDX6FPUf9yBX2WiHVaNer7jbt58m85jDXhwqfi66EtuCYD1JaWxg18dL3aw1Nf6kQBvLIgZow/s192/logo192.jpeg",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWvXR_1TMKSTWlQbhJNZWNgIrHqXbs_6JlzLZwf4Ifq2jSN-TnLfPCCUJFKjXV9exMu5puAUtrKEQZpm4jnxu0q0jxQlhyphenhyphen2YmRumZBTJ9j5kwlL_STKhqsfWZBRBr__IEkUCD3Jjof4bQ11y5MTM6uMs_SoAx2oj1wtBRYnBr3Tfn3pglU_u2vD98x_zX/s192/abaah192.jpeg",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdvnnE4HKxu7TAoPuz8AlefAMR4unwOZyeCtukEWaJxWxX_U7zkxllw4k6HhK9DIDWZJK-NvIMbmrFF7-njOShDw6JgPjGhgspHaa_sJayLFZdH1CW56-5YfSfLEB6hszARqBY0ud7EXM0d-6mWHw0RKH0hktruOexVA9_YXVFHSZzdNXaOr8M3PmycnvL/s511/logoo512.jpeg",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwY1FSvt1sOKq2vGwF1p0gxgdfofNfQzobUhD13PCbEn-7dfJNZ3OhUrOH3R8jJHc8dKVIwUgQn7yQIo0m7HXcumjwo3A06GQAxhDlJ2VzwKNP_-Pa1KaV03fVcIdPELf48OTE7CQIGpcdRVmVYegkGlX2ilpUAzUV1Qzv72_bcaADGLpyUSULwJHY9I1n/s510/abaah512.jpeg",
       "sizes": "512x512",
       "type": "image/png"
     }
