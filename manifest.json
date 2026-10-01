@@ -5,16 +5,16 @@
   "start_url": "https://saosweb.blogspot.com/?m=1",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#075E54",
+  "theme_color": "#128C7E",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4bo449_xTNZGdrajIq0aus9qSvAKAtwjW7GexRNr0yWngNzrTebvj5cx5j-37LU8zb-NuAlkEFP027pJBnx81EGgIspWlQy2N9Yv7JSpPVztsc6nt1nK23yLsRNX4bsf-x0f5KaQ-ZvAvDz5MiikFpygxkUDhQohuZMRy6BPLcT177CZw0AQXV_aUTjZC/s192/192.png",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPJWsh9wgkrb9HjYqiDjbQV6G5EQJGaxkvUBasXirMjLPY2v5GUTxk4WlOKd-Rql_S-HA_kTv0rh87KEfBtfvwwylmkoJ_bTgXghFQFfLkK8C5b8QJkCXrDX6FPUf9yBX2WiHVaNer7jbt58m85jDXhwqfi66EtuCYD1JaWxg18dL3aw1Nf6kQBvLIgZow/s192/logo192.jpeg",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieKkFyzmSXl1s57TeLD7RUr2yCvTpzzxiEeQOYK-A0-gTL_XXeqVlvMc6VMSIuSNkv6V9HccWtbR7dh3uuuQq4fyhyphenhyphenN8CQf1XSSlqXuDICkW_xvqmK085cvQi__LX3oSVh10lqZs2KBnl4oynt2qY3rH7vywBifQlw14dlwrmh5ap_JaHiO4qxftSHBzxf/s512/512.png",
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdvnnE4HKxu7TAoPuz8AlefAMR4unwOZyeCtukEWaJxWxX_U7zkxllw4k6HhK9DIDWZJK-NvIMbmrFF7-njOShDw6JgPjGhgspHaa_sJayLFZdH1CW56-5YfSfLEB6hszARqBY0ud7EXM0d-6mWHw0RKH0hktruOexVA9_YXVFHSZzdNXaOr8M3PmycnvL/s511/logoo512.jpeg",
       "sizes": "512x512",
       "type": "image/png"
     }
